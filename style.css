@@ -1,0 +1,125 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: clip;
+}
+
+/* Nav */
+nav {
+    padding: 15px;
+    background: #ff5500;
+}
+
+nav h1 {
+    font-size: 2em;
+    letter-spacing: -2px;
+}
+
+
+/* Main */
+
+#section7 {
+    background: #ff5500;
+}
+
+.inner-s1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 12px;
+}
+
+.sections img {
+    height: 490px;
+    box-shadow: 1px 1px 23px -8px rgb(48, 47, 47);
+    margin-top: 63px;
+}
+
+.sections h2 {
+    padding: 30px 0;
+}
+
+.sections a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.sections p {
+    padding: 30px 0;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+.white {
+    color: #fff;
+}
+
+#section6 {
+    background: #F2E4B6;
+}
+
+#section5 {
+    background: #FF5D8F;
+}
+
+#section4 {
+    background: rgb(125, 122, 122);
+}
+
+#section3 {
+    background: #00c1b5;
+}
+
+#section2 {
+    background: #ffbe00;
+}
+
+#section1 {
+    background: #e30512;
+}
+
+
+/* Footer */
+
+footer {
+    background: #e30512;
+    padding: 17px;
+}
+
+.footer-text {
+    font-weight: bolder;
+    font-size: 23px;
+    width: 39%;
+}
+
+footer p {
+    padding: 10px 0;
+}
+
+.footer-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: larger;
+    margin-right: 23px;
+    font-weight: bolder;
+    padding: 15px 0;
+}
+
+.footer-div a {
+    color: black;
+}
+
+
