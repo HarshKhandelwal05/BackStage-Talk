@@ -7,12 +7,14 @@
 body {
     font-family: "Roboto", sans-serif;
     width: 100%;
+    background-color: #ff5500;
+    transition: background-color 1.5s ease;
 }
 
 /* Nav */
 nav {
     padding: 15px;
-    background: #ff5500;
+    background: transparent;
 }
 
 nav h1 {
@@ -22,6 +24,10 @@ nav h1 {
 
 
 /* Main */
+
+main > div {
+    background: transparent ;
+}
 
 .inner-s1 {
     width: 100%;
@@ -62,32 +68,14 @@ nav h1 {
     color: #fff;
 }
 
-#section7 {
-    background: #ff5500;
-}
-
-#section6 {
-    background: #F2E4B6;
-}
-
-#section5 {
-    background: #FF5D8F;
-}
-
-#section4 {
-    background: #7d7a7a;
-}
-
-#section3 {
-    background: #00c1b5;
-}
-
-#section2 {
-    background: #ffbe00;
-}
-
+#section7,
+#section6,
+#section5,
+#section4,
+#section3,
+#section2,
 #section1 {
-    background: #e30512;
+background-color: transparent;
 }
 
 
@@ -95,7 +83,7 @@ nav h1 {
 
 footer {
     width: 100%;
-    background: #e30512;
+    background: transparent;
     padding: 25px 20px;
 }
 
